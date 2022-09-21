@@ -38,7 +38,7 @@
 
 var gridOptions = {
   columnDefs: [
-    { field: 'athlete'},
+    { field: 'athlete', rowSpan: params => params.data.athlete === 'Michael Phepls' ? 2 : 1},
     { field: 'age'},
     { field: 'country'},
     { field: 'year'},
@@ -53,6 +53,13 @@ var gridOptions = {
     sortable: true,
     filter: true,
   },
+  suppressRowTransform: true,
+  groupHeaderHeight: 75,
+  headerHeight: 60,
+  floatingFiltersHeight: 50,
+  pivotHeaderHeight: 100,
+  pivotGroupHeaderHeight: 50,
+  rowHeight: 50,
 };
 
 document.addEventListener("DOMContentLoaded", function () {
