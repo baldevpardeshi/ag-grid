@@ -1,0 +1,14 @@
+.ag-theme-alpine {
+  --ag-background-color: #ddd;
+  --ag-alpine-active-color: red;
+  --ag-grid-size: 4px;
+  --ag-list-item-height: 24px;
+  --ag-header-height: 30px;
+  --ag-header-foreground-color: maroon;
+  --ag-header-background-color: wheat;
+  --ag-header-cell-hover-background-color: rgb(104, 15, 236);
+  --ag-header-cell-moving-background-color: rgb(209, 55, 150);
+  --ag-border-color: green;
+  --ag-borders-row: dashed 1px;
+  --ag-row-border-color: rgb(70, 70, 255);
+}
