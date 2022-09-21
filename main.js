@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var gridDIv = document.querySelector("#myGrid");
   new agGrid.Grid(gridDIv, gridOptions);
   fetch(
-    "https://www.ag-grid.com/example-assets/olympic-winners.js"
+    "https://www.ag-grid.com/example-assets/olympic-winners.json"
   )
   
     .then((response) => response.json())
